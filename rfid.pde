@@ -166,7 +166,8 @@ void loop ()
 
 boolean accessCheck(byte test[]) 
 {
-	byte rfidTags = 3;
+	// Number of cards
+	byte rfidTags = 4;
 	
 	byte tags[30] = {
 		'0','0','0','0','0','0','0','0','0','0',			// Card 1
